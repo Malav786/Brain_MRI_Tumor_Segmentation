@@ -1,0 +1,41 @@
+# ── Virtual Environments ──
+myenv/
+venv/
+.venv/
+env/
+
+# ── Python Cache ──
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# ── Model Weights (too large for GitHub) ──
+dashboard_data/models/*.pth
+
+# ── Raw Dataset (downloaded at runtime) ──
+data/
+
+# ── IDE & OS ──
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+Thumbs.db
+.DS_Store
+
+# ── Jupyter Checkpoints ──
+.ipynb_checkpoints/
+
+# ── Temp Files ──
+*.tmp
+*.log
+report_assets/
+
+# ── Presentations & old reports ──
+*.pptx
+AI_Campus_ProjectReport.pdf
+
+# ── Office temp files ──
+~$*

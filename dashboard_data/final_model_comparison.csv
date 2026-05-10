@@ -1,0 +1,5 @@
+Model,Dice,IoU,Uses_Metadata,Has_Attention,Has_Scheduler
+BasicUNet,0.894113,0.810121,False,False,False
+MetadataUNet,0.89486,0.811078,True,False,False
+AttentionMetadataUNet,0.871776,0.775612,True,True,False
+AttentionMetadataUNet (Scheduler),0.895969,0.813479,True,True,True

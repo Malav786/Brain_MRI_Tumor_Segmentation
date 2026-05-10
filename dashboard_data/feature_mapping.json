@@ -1,0 +1,58 @@
+{
+  "num_features": 20,
+  "columns": [
+    "age_at_initial_pathologic",
+    "gender_1.0",
+    "gender_2.0",
+    "histological_type_1.0",
+    "histological_type_2.0",
+    "histological_type_3.0",
+    "tumor_location_1.0",
+    "tumor_location_2.0",
+    "tumor_location_4.0",
+    "tumor_location_5.0",
+    "tumor_location_6.0",
+    "RNASeqCluster_1.0",
+    "RNASeqCluster_2.0",
+    "RNASeqCluster_3.0",
+    "RNASeqCluster_4.0",
+    "MethylationCluster_1.0",
+    "MethylationCluster_2.0",
+    "MethylationCluster_3.0",
+    "MethylationCluster_4.0",
+    "MethylationCluster_5.0"
+  ],
+  "categorical_labels": {
+    "gender": {
+      "MALE": "gender_1.0",
+      "FEMALE": "gender_2.0"
+    },
+    "histological_type": {
+      "astrocytoma": "histological_type_1.0",
+      "oligoastrocytoma": "histological_type_2.0",
+      "oligodendroglioma": "histological_type_3.0"
+    },
+    "tumor_location": {
+      "other_1": "tumor_location_1.0",
+      "frontal lobe": "tumor_location_2.0",
+      "other_4": "tumor_location_4.0",
+      "parietal lobe": "tumor_location_5.0",
+      "temporal lobe": "tumor_location_6.0"
+    },
+    "RNASeqCluster": {
+      "1": "RNASeqCluster_1.0",
+      "2": "RNASeqCluster_2.0",
+      "3": "RNASeqCluster_3.0",
+      "4": "RNASeqCluster_4.0"
+    },
+    "MethylationCluster": {
+      "1": "MethylationCluster_1.0",
+      "2": "MethylationCluster_2.0",
+      "3": "MethylationCluster_3.0",
+      "4": "MethylationCluster_4.0",
+      "5": "MethylationCluster_5.0"
+    }
+  },
+  "scaler_mean": 45.845454545454544,
+  "scaler_scale": 13.67159388435902
+}

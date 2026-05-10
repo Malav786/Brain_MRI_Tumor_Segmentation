@@ -1,0 +1,47 @@
+{
+  "total_samples": 7858,
+  "train_samples": 6286,
+  "val_samples": 1572,
+  "num_patients": 110,
+  "image_size": [
+    128,
+    128
+  ],
+  "batch_size": 32,
+  "epochs": 15,
+  "learning_rate": 0.001,
+  "loss_function": "DiceBCE (BCE + Dice)",
+  "optimizer": "Adam",
+  "mixed_precision": true,
+  "val_tumor_slices": 535,
+  "val_clean_slices": 1037,
+  "avg_tumor_coverage_pct": 3.0,
+  "metadata_columns_used": [
+    "age_at_initial_pathologic",
+    "gender",
+    "histological_type",
+    "tumor_location",
+    "RNASeqCluster",
+    "MethylationCluster"
+  ],
+  "all_csv_columns": [
+    "Patient",
+    "RNASeqCluster",
+    "MethylationCluster",
+    "miRNACluster",
+    "CNCluster",
+    "RPPACluster",
+    "OncosignCluster",
+    "COCCluster",
+    "histological_type",
+    "neoplasm_histologic_grade",
+    "tumor_tissue_site",
+    "laterality",
+    "tumor_location",
+    "gender",
+    "age_at_initial_pathologic",
+    "race",
+    "ethnicity",
+    "death01"
+  ]
+}
