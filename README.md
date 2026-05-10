@@ -60,7 +60,7 @@ bioMed/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/<your-username>/bioMed.git
+git clone https://github.com/Malav786/Brain_MRI_Tumor_Segmentation
 cd bioMed
 ```
 
