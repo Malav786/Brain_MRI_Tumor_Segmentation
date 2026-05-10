@@ -86,8 +86,7 @@ pip install -r requirements.txt
 
 Model weights are not included in the repository due to size constraints (~130MB).
 
-**Option A — Google Drive:**
-Download from: [Model Weights (Google Drive)](#) *(add your link here)*
+**Option A - Use preset data**
 
 Place the downloaded files in `dashboard_data/models/`:
 ```
@@ -98,7 +97,7 @@ dashboard_data/models/
 └── best_AttentionMetadataUNet_scheduler.pth
 ```
 
-**Option B — Train from scratch:**
+**Option B - Train from scratch:**
 Open `src/AICampus_project.ipynb` in Google Colab (GPU runtime required) and run all cells. The notebook will download the dataset, train all 4 models, and export artifacts to `dashboard_data/`.
 
 ### 5. Run the Dashboard
